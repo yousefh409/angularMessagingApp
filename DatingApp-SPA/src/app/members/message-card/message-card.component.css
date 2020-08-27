@@ -1,0 +1,23 @@
+.member-card {
+  width: 60%;
+  padding: 10px;
+  margin: 5px;
+  color: white;
+}
+
+.recieved {
+  background: #2C3E50;
+  border-radius: 18px 18px 0px 18px;
+
+}
+
+.sent {
+  background: #18BC9C;
+  border-radius: 18px 18px 18px 0px;
+}
+
+
+.rounded-circle {
+    height: 50px;
+    width: 50px;
+  }

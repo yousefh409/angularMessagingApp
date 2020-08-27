@@ -1,0 +1,25 @@
+<div *ngIf= "!loggedIn()" class="container mt-5">
+  <div *ngIf="!registerMode" style="text-align: center">
+    <h1>Find A Person Tooday</h1>
+    <p class="lead">Come on in to find some people to talk with... All you need to do is sign up!</p>
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg mr-2" (click)="registerToggle()">Register</button>
+    </div>
+  </div>
+
+  <div *ngIf="registerMode" class="container">
+    <div class="row justify-content-center">
+      <div class="col-4">
+        <app-register (cancelRegister)="cancelRegisterMode($event)"></app-register>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div *ngIf="loggedIn()" class="container mt-5" style="text-align: center;">
+  <h1>Welcome to MessagingApp</h1>
+    <p class="lead">Hope you are finding some people to message!</p>
+    <div class="text-center">
+      <button class="btn btn-primary btn-lg mr-2" (click)="makeRandomAlert()">Get a random fact(for no reason whatsoever)!</button>
+    </div>
+</div>

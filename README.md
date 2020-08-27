@@ -4,6 +4,8 @@ A messaging app developed using .NET and Angular
 
 It was originally named DatingApp, and as such, results the difference in naming amongst the file names and code. The UserInterface should be fine however.
 
+The commands should be split, so the .NET commands run in one prompt, and the Angular related commands run in another.
+
 Run "dotnet run" or "dotnet watch run" to run the server side .NET Core application.
 
 First, run "npm install --save-dev @angular-devkit/build-angular" to install the appropriate packages.

@@ -10,7 +10,7 @@ The commands should be split, so the .NET commands run in one prompt, and the An
 
 Run "dotnet run" or "dotnet watch run" to run the server side .NET Core application.
 
-First, run "npm install --save-dev @angular-devkit/build-angular" to install the appropriate packages.
+First, run "npm install --save-dev @angular-devkit/build-angular" to install the appropriate packages. If vulnerabilities are found, and you are asked to run an 'audit' command, please do so.
 
 Run "ng serve --open" to run the Angular application, and run it on http://localhost:4200/.
 

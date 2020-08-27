@@ -8,7 +8,7 @@ When running Angular commands, one should cd into the SPA application. When runn
 
 The commands should be split, so the .NET commands run in one prompt, and the Angular related commands run in another.
 
-Run "dotnet run" or "dotnet watch run" to run the server side .NET Core application.
+Run "dotnet run" to run the server side .NET Core application.
 
 First, run "npm install --save-dev @angular-devkit/build-angular" to install the appropriate packages. If vulnerabilities are found, and you are asked to run an 'audit' command, please do so.
 

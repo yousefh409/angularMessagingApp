@@ -15,3 +15,5 @@ First, run "npm install --save-dev @angular-devkit/build-angular" to install the
 Run "ng serve --open" to run the Angular application, and run it on http://localhost:4200/.
 
 The application has been seeded with data using https://www.json-generator.com/, and it is reseeded every time the .NET application runs, unless data already exists in the database. As such, the database may be dropped without any impairments to the function of the application.
+
+To make the Photo Upload function work, the Cloudinary Settings in the appropriate files must be updated with those of your Cloudinary Account.
